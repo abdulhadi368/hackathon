@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Shop = () => {
   return (
@@ -10,13 +11,13 @@ const Shop = () => {
          <div className="h-[46px] w-[415px] gap-[10px] flex">
           <div className="h-[44px] w-[145px] flex gap-[10px] justify-center items-center">
             <div className="h-[16px] w-[16px]">
-              <img src="/image/phone/icn settings icn-xs.svg" alt="Phone" />
+              <Image src="/image/phone/icn settings icn-xs.svg" alt="Phone"  height={100} width={100}/>
             </div>
                <h6 style={{ fontWeight: '400' }} className="h-[24px] w-[104px] text-[14px] text-[#FFFFFF] font-montserrat">(225) 555-0118</h6>
             </div>
           <div className="h-[44px] w-[260px] gap-[10px] flex justify-center items-center">
             <div className="h-[16px] w-[16px]">
-              <img src="/image/message/icn settings icn-xs (1).svg" alt="Message"/>
+              <Image src="/image/message/icn settings icn-xs (1).svg" alt="Message" height={100} width={100}/>
             </div>
             <h6 style={{ fontWeight: '400' }} className="h-[24px] w-[219px] text-[14px] text-[#FAFAFA] font-montserrat">michelle.rivera@example.com</h6>
           </div>
@@ -27,10 +28,10 @@ const Shop = () => {
         <div className="h-[46px] w-[233px] gap-[10px] flex items-center justify-center">
             <h6 style={{ fontWeight: '700' }} className="h-[24px] w-[83px] font-montserrat text-[14px] text-[#FAFAFA]">Follow Us :</h6>
           <div className="h-[26px] w-[120px] flex gap-[5px]">
-            <img className="h-[26px] w-[26px]" src="/image/insta/a.svg" alt="insta"/>
-            <img className="h-[26px] w-[26px]" src="/image/youtube/a (1).svg" alt="yt"/>
-            <img className="h-[26px] w-[26px]" src="/image/facebook/a (2).svg" alt="fb"/>
-            <img className="h-[26px] w-[26px]" src="/image/twitter/a (3).svg" alt="twit"/>
+            <Image className="h-[26px] w-[26px]" src="/image/insta/a.svg" alt="insta" height={100} width={100}/>
+            <Image className="h-[26px] w-[26px]" src="/image/youtube/a (1).svg" alt="yt" height={100} width={100}/>
+            <Image className="h-[26px] w-[26px]" src="/image/facebook/a (2).svg" alt="fb" height={100} width={100}/>
+            <Image className="h-[26px] w-[26px]" src="/image/twitter/a (3).svg" alt="twit" height={100} width={100}/>
           </div>
          </div>
       </div>
@@ -51,7 +52,7 @@ const Shop = () => {
         </div>
         <div className='h-[25px] w-[63px] gap-[10px] flex justify-center items-center'>
             <a href="./Shop"><h1 style={{fontWeight:'500'}} className='h-[24px] w-[38px] text-[14px] text-[#252B42]'>Shop</h1></a>
-            <img src="/image/down/Vector.svg" alt="DownDrop" />
+            <Image src="/image/down/Vector.svg" alt="DownDrop"  height={100} width={100}/>
         </div>
         <a href="./About"><h1 style={{fontWeight:'700'}} className='h-[24px] w-[45px] text-[14px] text-[#737373]'>About</h1></a>
         <a href=""><h1 style={{fontWeight:'700'}} className='h-[24px] w-[33px] text-[14px] text-[#737373]'>Blog</h1></a>
@@ -60,12 +61,12 @@ const Shop = () => {
       </div>
       <div className='h-[54px] w-[324px] justify-center items-center flex'>
         <div className='h-[54px] w-[166px] flex gap-[5px] justify-center items-center'>
-          <img src="/image/user/icn settings icn-xs (2).svg" alt="" />
+          <Image src="/image/user/icn settings icn-xs (2).svg" alt=""  height={100} width={100}/>
           <a href=""><h1 style={{fontWeight:'700'}} className='h-[24px] w-[119px] font-montserrat text-[14px] text-[#23A6F0] pt-[3px]' >Login / Register</h1></a>
         </div>
-        <img src="/image/search/li.svg" alt="search" />
-        <img src="/image/cart/li (1).svg" alt="cart" />
-        <img src="/image/wishlist/li (2).svg" alt="wish list" />
+        <Image src="/image/search/li.svg" alt="search"  height={100} width={100}/>
+        <Image src="/image/cart/li (1).svg" alt="cart" height={100} width={100}/>
+        <Image src="/image/wishlist/li (2).svg" alt="wish list"  height={100} width={100}/>
       </div>
      </div>
       
@@ -79,7 +80,7 @@ const Shop = () => {
                 <div className='h-[44px] w-[509px] flex gap-[5px] justify-center items-center'>
                     <div className='h-[44px] w-[119px] gap-[15px] flex items-center'>
                         <a href="./"><h6 style={{fontWeight:700}} className='h-[24px] w-[43px] text-[14px] text-[#252B42]'>Home</h6></a>
-                        <img className='pb-[2px]' src="/image/Arow/icn arrow-right icn-xs.svg" alt="Right Arrow" />
+                        <Image className='pb-[2px]' src="/image/Arow/icn arrow-right icn-xs.svg" alt="Right Arrow"  height={100} width={100}/>
                         <a href="./Shop"><h6 style={{fontWeight:'700'}} className='h-[24px] w-[37px] font-montserrat text-[14px] text-[#BDBDBD]'>Shop</h6></a>
                     </div>
                 </div>
@@ -89,11 +90,11 @@ const Shop = () => {
           <div className='h-[271px] w-[1440px] flex justify-center items-center bg-[#FAFAFA]'>
             <div className='h-[271px] w-[1088px]'>
                 <div className='h-[223px] w-[1088px] flex gap-[15px]'>
-                    <img src="/image/girl/card-item.svg" alt="Card" />
-                    <img src="/image/girl/col-md-4.svg" alt="Card" />
-                    <img src="/image/girl/card-item (1).svg" alt="Card" />
-                    <img src="/image/girl/col-md-4 (1).svg" alt="Card" />
-                    <img src="/image/girl/col-md-4 (2).svg" alt="Card" />
+                    <Image src="/image/girl/card-item.svg" alt="Card"  height={100} width={100}/>
+                    <Image src="/image/girl/col-md-4.svg" alt="Card"  height={100} width={100}/>
+                    <Image src="/image/girl/card-item (1).svg" alt="Card"  height={100} width={100}/>
+                    <Image src="/image/girl/col-md-4 (1).svg" alt="Card"  height={100} width={100}/>
+                    <Image src="/image/girl/col-md-4 (2).svg" alt="Card"  height={100} width={100}/>
                 </div>
             </div>
           </div>
@@ -106,12 +107,12 @@ const Shop = () => {
                    </div>
                    <div className='h-[46px] w-[177px] gap-[15px] flex items-center'>
                     <h6 style={{fontWeight:'700'}} className='h-[24px] w-[53px] font-montserrat text-[14px] text-[#737373]'>Views:</h6>
-                    <img src="/image/box/Frame 31.svg" alt="Box" />
+                    <Image src="/image/box/Frame 31.svg" alt="Box"  height={100} width={100}/>
                    </div>
                    <div className='h-[50px] w-[252px] gap-[15px] flex'>
                      <div className='h-[50px] w-[141px] border-[1px] border-[#DDDDDD] bg-[#F9F9F9] rounded-[5px] flex items-center'>
                        <h6 style={{fontWeight:'400'}} className='h-[28px] w-[84px] font-montserrat text-[14px] text-[#737373] pt-[4px] pl-[5px]'>Popularity</h6>
-                       <img className='pt-[2px]' src="/image/Arow/Vector (1).svg" alt="arrow" />
+                       <Image className='pt-[2px]' src="/image/Arow/Vector (1).svg" alt="arrow"  height={100} width={100}/>
                      </div>
                      <div className='h-[50px] w-[94px] rounded-[5px] flex justify-center items-center bg-[#23A6F0]'>
                         <h6 style={{fontWeight:'700'}} className='h-[24px] w-[40px] font-montserrat text-[14px] text-[#FFFFFF]'>Filter</h6>
@@ -124,12 +125,12 @@ const Shop = () => {
           <div className='h-[175px] w-[1440px] bg-[#FAFAFA] flex justify-center items-center'>
             <div className='h-[175px] w-[1050px]'>
                 <div className='h-[175px] w-[1054px] gap-[30px] flex items-center'>
-                    <img src="/image/logo/col-md-2.svg" alt="logo" />
-                    <img src="/image/logo/col-md-2 (1).svg" alt="logo" />
-                    <img src="/image/logo/col-md-2 (2).svg" alt="logo" />
-                    <img src="/image/logo/col-md-2 (3).svg" alt="logo" />
-                    <img src="/image/logo/col-md-2 (4).svg" alt="logo" />
-                    <img src="/image/logo/col-md-2 (5).svg" alt="logo" />
+                    <Image src="/image/logo/col-md-2.svg" alt="logo"  height={100} width={100}/>
+                    <Image src="/image/logo/col-md-2 (1).svg" alt="logo"  height={100} width={100}/>
+                    <Image src="/image/logo/col-md-2 (2).svg" alt="logo"  height={100} width={100}/>
+                    <Image src="/image/logo/col-md-2 (3).svg" alt="logo"  height={100} width={100}/>
+                    <Image src="/image/logo/col-md-2 (4).svg" alt="logo"  height={100} width={100}/>
+                    <Image src="/image/logo/col-md-2 (5).svg" alt="logo"  height={100} width={100}/>
                 </div>
             </div>
           </div>
@@ -145,9 +146,9 @@ const Shop = () => {
             </div>
             <div className='h-[24px] w-[236px] flex items-center justify-center'>
               <div className='h-[24px] w-[112px] gap-[20px] flex'>
-                <img src="/image/facebook/facebook.svg" alt=" facebook" />
-                <img src="/image/insta/instagram.svg" alt="insta gram" />
-                <img src="/image/twitter/twitter.svg" alt="twitter" />
+                <Image src="/image/facebook/facebook.svg" alt=" facebook"  height={100} width={100}/>
+                <Image src="/image/insta/instagram.svg" alt="insta gram"  height={100} width={100}/>
+                <Image src="/image/twitter/twitter.svg" alt="twitter"  height={100} width={100}/>
               </div>
             </div>
           </div>
@@ -224,7 +225,7 @@ const Shop = () => {
                     <div className='h-[488px] w-[1048px] gap-[30px] flex'>
                         
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/fixed-height (4).svg" alt="products" />
+                            <Image src="/image/shop product/fixed-height (4).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -240,7 +241,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/fixed-height (5).svg" alt="products" />
+                            <Image src="/image/shop product/fixed-height (5).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -256,7 +257,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/fixed-height.svg" alt="products" />
+                            <Image src="/image/shop product/fixed-height.svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -272,7 +273,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/product-cover-5 (2).svg" alt="products" />
+                            <Image src="/image/shop product/product-cover-5 (2).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -293,7 +294,7 @@ const Shop = () => {
                     <div className='h-[488px] w-[1048px] gap-[30px] flex'>
                         
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/product-cover-5 (3).svg" alt="products" />
+                            <Image src="/image/shop product/product-cover-5 (3).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -309,7 +310,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/product-cover-5 (4).svg" alt="products" />
+                            <Image src="/image/shop product/product-cover-5 (4).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -325,7 +326,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/product-cover-5 (5).svg" alt="products" />
+                            <Image src="/image/shop product/product-cover-5 (5).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -341,7 +342,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/fixed-height (1).svg" alt="products" />
+                            <Image src="/image/shop product/fixed-height (1).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -361,7 +362,7 @@ const Shop = () => {
                     <div className='h-[488px] w-[1048px] gap-[30px] flex'>
                         
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/product-cover-5 (6).svg" alt="products" />
+                            <Image src="/image/shop product/product-cover-5 (6).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -377,7 +378,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/product-cover-5 (7).svg" alt="products" />
+                            <Image src="/image/shop product/product-cover-5 (7).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -393,7 +394,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/fixed-height (2).svg" alt="products" />
+                            <Image src="/image/shop product/fixed-height (2).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -409,7 +410,7 @@ const Shop = () => {
                         </div>
 
                         <div className='h-[488px] w-[238px]'>
-                            <img src="/image/shop product/fixed-height (3).svg" alt="products" />
+                            <Image src="/image/shop product/fixed-height (3).svg" alt="products"  height={100} width={100}/>
                             <h5 style={{fontWeight:'700'}} className='h-[24px] w-[200px] text-[16px] font-montserrat text-[#252B42] pl-[55px] pt-[20px]'>Graphic Design</h5>
                         <h1 style={{fontWeight:'700'}} className='h-[24px] w-[220px] text-[14px] font-montserrat text-[#737373] pt-[30px] pl-[43px]'>English Department</h1>
                         <div className='h-[34px] w-[108px] gap-[5px] flex pl-[65px] pt-[40px]'>
@@ -425,7 +426,7 @@ const Shop = () => {
                         </div>
 
                     </div>
-                <img className='pl-[365px]' src="/image/box/Pagination.svg" alt="" />
+                <Image className='pl-[365px]' src="/image/box/Pagination.svg" alt=""  height={100} width={100}/>
             </div>
         </div>
     </div>
